@@ -1,161 +1,89 @@
+haitham:
+  display_name: "Prof. Dr. Haitham Hassanieh"
+  webpage: "https://people.epfl.ch/haitham.alhassanieh?lang=en"
+  #   github: profx
+  role: faculty
+  image: /img/people/haitham.jpg
+  bio: Associate Professor
 
-prof-a:
-    display_name: "Prof A"
-    role: faculty
+jayden:
+  display_name: "Dr. Junfeng (Jayden) Guan"
+  webpage: "https://jguan.page/"
+  role: postdoc
+  image: /img/people/jayden.jpeg
+#   bio: aka Cyclops
 
-prof-b:
-    display_name: "Prof B"
-    role: faculty
+hailan:
+  display_name: "Hailan Zhang Shanbhag"
+  webpage: "https://hailanshanbhag.github.io/"
+  #   github: wolverine
+  role: grad
+  bio: PhD Candidate
+  image: /img/people/hailan.jpg
 
-prof-c:
-    display_name: "Prof C"
-    role: faculty
+samah:
+  display_name: "Samah Hussein Youssef"
+  webpage: "https://people.epfl.ch/samah.husseinyoussef?lang=en"
+  role: grad
+  bio: PhD Candidate
+  image: /img/people/samah.jpg
 
-profx:
-    display_name: "Professor X"
-    webpage: "http://en.wikipedia.org/wiki/Professor_X"
-    github: profx
-    role: faculty
-    image: /img/people/prof-x.png
-    bio: Professor
+arman:
+  display_name: "Arman Maghsoudnia"
+  webpage: "https://people.epfl.ch/arman.maghsoudnia?lang=en"
+  role: grad
+  bio: PhD Student
+  image: /img/people/arman.jpg
 
-scott:
-    display_name: "Scott Summers"
-    webpage: "http://en.wikipedia.org/wiki/Cyclops_(comics)"
-    role: staff
-    image: /img/people/scott.png
-    bio: aka Cyclops
+raphael:
+  display_name: "Raphael Cannatà"
+  webpage: "https://www.raphaelcannata.com/"
+  role: grad
+  bio: PhD Student
+  image: /img/people/raphael.jpg
 
-wolverine:
-    display_name: "Wolverine"
-    webpage: "http://en.wikipedia.org/wiki/Wolverine_%28comics%29"
-    github: wolverine
-    role: postdoc
+Aoyu:
+  display_name: "Aoyu Gong"
+  webpage: "https://aygong.com/"
+  role: grad
+  bio: PhD Student
+  image: /img/people/aoyu.jpg
 
-storm:
-    display_name: "Storm"
-    webpage: "http://en.wikipedia.org/wiki/Storm_%28Marvel_Comics%29"
-    role: grad
-    image: /img/people/storm.png
+suraj:
+  display_name: "Dr. Suraj Jog"
+  role: alum
+  webpage: "https://sjog2.web.engr.illinois.edu/"
+  image: /img/people/suraj.jpg
+  bio: "UIUC PhD '22 <br> First job: Microsoft Research"
 
-grad-a:
-    display_name: "Grad A"
-    role: grad
+sohrab:
+  display_name: "Dr. Sohrab Madani"
+  role: alum
+  webpage: "https://smadani2.web.illinois.edu/"
+  image: /img/people/sohrab.jpg
+  bio: "UIUC PhD '23"
 
-grad-b:
-    display_name: "Graduate Student B With Long Name"
-    role: grad
+jiaming:
+  display_name: "Dr. Jiaming Wang"
+  role: alum
+  webpage: "https://jw27.web.engr.illinois.edu/"
+  image: /img/people/jiaming2.jpg
+  bio: "UIUC PhD '24"
 
-grad-c:
-    display_name: "Grad C"
-    role: grad
+dan:
+  display_name: "Dan Mihai Dumitriu"
+  role: collab
+  webpage: "https://www.linkedin.com/in/dmdumitriu/?originalSubdomain=ch"
+  image: /img/people/dan.jpg
+  bio: "Principal owner, Pavonis LLC"
 
-grad-d:
-    display_name: "Grad D"
-    role: grad
+laura:
+  display_name: "Laura Dodds"
+  role: visitandresearch
+  webpage: "https://signal-kinetics.media.mit.edu/people/laura-dodds/"
+  bio: "visiting PhD from MIT, spring '23 and fall '23"
 
-grad-e:
-    display_name: "Grad E"
-    role: grad
-
-grad-f:
-    display_name: "Grad F"
-    role: grad
-
-grad-g:
-    display_name: "Grad G"
-    role: grad
-
-grad-h:
-    display_name: "Grad H"
-    role: grad
-
-grad-i:
-    display_name: "Grad I"
-    role: grad
-
-alum-a:
-    display_name: "Alum A"
-    role: alum
-    bio: "Ph.D., 2013. Now at Microsoft Research."
-
-alum-b:
-    display_name: "Alum B With Way Longer Name"
-    role: alum
-
-alum-c:
-    display_name: "Alum C"
-    role: alum
-    webpage: "https://www.google.com"
-
-alum-d:
-    display_name: "Alum D"
-    role: alum
-
-alum-e:
-    display_name: "Alum E"
-    role: alum
-
-alum-f:
-    display_name: "Alum F"
-    role: alum
-
-alum-g:
-    display_name: "Alum G"
-    role: alum
-
-alum-h:
-    display_name: "Alum H"
-    role: alum
-
-alum-i:
-    display_name: "Alum I"
-    role: alum
-
-collab-a:
-    display_name: "Collaborator A"
-    role: collab
-
-collab-b:
-    display_name: "Collaborator B With Long Name"
-    role: collab
-
-collab-c:
-    display_name: "Collaborator C"
-    role: collab
-
-collab-d:
-    display_name: "Collaborator D"
-    role: collab
-
-collab-e:
-    display_name: "Collaborator E"
-    role: collab
-
-ugrad-a:
-    display_name: "Ugrad A"
-    role: ugrad
-
-ugrad-b:
-    display_name: "Ugrad Student B With Long Name"
-    role: ugrad
-
-ugrad-c:
-    display_name: "Ugrad C"
-    role: ugrad
-
-ugrad-d:
-    display_name: "Ugrad D"
-    role: ugrad
-
-ugrad-e:
-    display_name: "Ugrad E"
-    role: ugrad
-
-ugrad-alum-a:
-    display_name: "Past Ugrad A"
-    role: ugrad-alum
-
-ugrad-alum-b:
-    display_name: "Past Ugrad Student B With Long Name"
-    role: ugrad-alum
+haoxin:
+  display_name: "Haoxin Sun"
+  role: grad-undergrad-projects
+  bio: MSc thesis, spring '24

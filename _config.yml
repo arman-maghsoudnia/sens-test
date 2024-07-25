@@ -1,4 +1,4 @@
-name: Awesome Research Group
+name: Laboratory of Sensing and Networking Systems (SENS)
 url: http://awesome.example.edu
 
 exclude: [bibble, README.md, Makefile, screenshot.png]
@@ -13,16 +13,14 @@ permalink: /blog/:year/:month/:day/:title.html
 roles:
   - key: faculty
     name: Faculty
-  - key: staff
-    name: Staff
   - key: postdoc
-    name: Researchers
+    name: Postdoc
   - key: grad
-    name: Graduate Students
-  - key: ugrad
-    name: Undergraduate Students
-  - key: ugrad-alum
-    name: Past Undergraduate Students
+    name: PhD
+  - key: visitandresearch
+    name: Past visitors and researchers
+  - key: grad-undergrad-projects
+    name: A selection of undergraduate and graduate student projects
   - key: collab
     name: Collaborators
   - key: alum
@@ -32,7 +30,7 @@ roles:
 front_page_news: 8
 
 # Base pathname for links.
-base: ''
+base: ""
 
 # make pages for the _projects folder
 collections:

@@ -11,10 +11,10 @@ body {
 
 .carousel {
     position: relative;
-    width: 150%;
+    width: 100%;
     max-width: 1000px;
     overflow: hidden;
-    border-radius: 5px;
+    border-radius: 0px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 

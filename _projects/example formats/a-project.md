@@ -1,5 +1,6 @@
 ---
 title: A Project
+status: inactive #comment out this line to build your project
 
 description: |
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut hendrerit blandit

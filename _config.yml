@@ -12,11 +12,11 @@ permalink: /blog/:year/:month/:day/:title.html
 # Sections on the "people" page.
 roles:
   - key: faculty
-    name: Faculty
+    name: Advisor
   - key: postdoc
     name: Postdoc
   - key: grad
-    name: PhD
+    name: PhD Students
   - key: visitandresearch
     name: Past visitors and researchers
   - key: grad-undergrad-projects

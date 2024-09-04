@@ -28,26 +28,13 @@ role-tables:
 
 <div class="jumbotron">
     <p>
-        The <b>Awesome Research Group</b> at <b>Example U</b> does all sorts of
-        research. Here is a place where we tell you exactly what that is!
+        The <b>Laboratory of Sensing and Networking Systems (SENS)</b> at <b>EPFL</b> an interdisciplinary research group dedicated to 
+        designing and implementing innovative systems with tangible real-world applications. Our focus spans a wide range of areas, 
+        including wireless networking, the Internet of Things (IoT), mobile systems, as well as wireless imaging and sensing technologies.
     </p>
 </div>
 
-<section>
-    <h2>News</h2>
-    <ul class="news list-unstyled">
-        {% for post in site.posts limit: site.front_page_news %}
-            {% include news-item.html item=post %}
-        {% endfor %}
-    </ul>
-    {% assign numposts = site.posts | size %}
-    {% if numposts >= 1 %}
-        <p>
-            <span class="fa fa-fw fa-history"></span>
-            <a href="{{ site.base }}/blog.html">Older posts&hellip;</a>
-        </p>
-    {% endif %}
-</section>
+
 
 <section>
     <h2>Research</h2>
@@ -79,3 +66,20 @@ role-tables:
         </section>
     {% endfor %}
 </div>
+
+
+<section>
+    <h2>News</h2>
+    <ul class="news list-unstyled">
+        {% for post in site.posts limit: site.front_page_news %}
+            {% include news-item.html item=post %}
+        {% endfor %}
+    </ul>
+    {% assign numposts = site.posts | size %}
+    {% if numposts >= 1 %}
+        <p>
+            <span class="fa fa-fw fa-history"></span>
+            <a href="{{ site.base }}/blog.html">Older posts&hellip;</a>
+        </p>
+    {% endif %}
+</section>

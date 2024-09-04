@@ -9,7 +9,7 @@ people:
   - samah
 
 layout: project
-last-updated: 2024-07-03
+last-updated: 2024-08-03
 ---
 This research project aims to leverage machine learning techniques to enhance and reconstruct 3D objects in practical scenarios for autonomous driving.
 
@@ -27,7 +27,7 @@ Despite these advantages, mmWave radar sensors face hardware limitations that af
 
 ### Completed student projects 
 
-1. Experimental platform deployment for TI's mmWave Cascaded Radar on Turtlebot 
+1. Multi-Sensor Assisted Mobile Millimeter-Wave Mapping Platform
 
       Student: Cyril Golaz
 2. 3D partial and complete point clouds dataset using mmWave radar 

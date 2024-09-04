@@ -1,5 +1,6 @@
 ---
 title: Logo Project
+status: inactive #comment out this line to build your project
 
 notitle: true
 

@@ -1,5 +1,6 @@
 ---
 title: Big Project
+status: inactive #comment out this line to build your project
 
 description: |
   This project has a lot of people working on it!!

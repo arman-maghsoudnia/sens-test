@@ -10,8 +10,8 @@ body {
 }
 
 .header {
-    border-bottom: 1px solid $light-gray;
-    padding-bottom: 10px;
+    border-bottom: 0px solid $light-gray;
+    padding-bottom: 5px;
     margin-bottom: 20px;
     text-align: center;
 }
@@ -53,8 +53,8 @@ a > .fa {
 
 /* Group logo */
 #logo {
-    width: 120px;
-    height: 55px;
+    width: 180px;
+    height: 80px;
     margin: 2px 0 8px 0;
 }
 
@@ -147,4 +147,13 @@ section {
 svg {
     // make the alignment just like img from bootstrap's reboot.scss
     vertical-align: middle;
+}
+
+
+.half-width-hr {
+    width: 100%;               /* Set the width to 50% of the page */
+    border: none;              /* Remove default border styling */
+    height: 1px;               /* Set the height of the line */
+    background-color: $light-gray;   /* Set the color of the line */
+    margin: 20px auto;         /* Center the line horizontally and add margin above/below */
 }

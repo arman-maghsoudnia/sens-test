@@ -22,33 +22,42 @@
                     <img src="{{ site.base }}/img/SENS-logo-nobg.png"
                          srcset="{{ site.base }}/img/SENS-logo-nobg.png 2x"
                          alt="Awesome" id="logo">
+                        <p style="font-size: 15px;">Sensing and Networking Systems Lab</p>
+
                 </a>
-                <ul class="nav nav-pills justify-content-center">
+                <div class="container">
 
-                    {% assign shorturl = page.url | replace:'.html','' | replace:'index','' %}
-                    {% for item in site.navigation %}
+                    <ul class="nav nav-pills justify-content-center">
+                        {% assign shorturl = page.url | replace:'.html','' | replace:'index','' %}
+                        {% for item in site.navigation %}
 
-                        {% assign itemshorturl = item.link | replace:'.html','' %}
+                            {% assign itemshorturl = item.link | replace:'.html','' %}
 
-                        {% assign maybe-active = '' %}
-                        {% if item.title == 'Research' and page.layout == 'project' %}
-                            {% assign maybe-active = 'active' %}
-                        {% endif %}
-                        {% if itemshorturl == shorturl or is-research %}
-                            {% assign maybe-active = 'active' %}
-                        {% endif %}
+                            {% assign maybe-active = '' %}
+                            {% if item.title == 'Research' and page.layout == 'project' %}
+                                {% assign maybe-active = 'active' %}
+                            {% endif %}
+                            {% if itemshorturl == shorturl or is-research %}
+                                {% assign maybe-active = 'active' %}
+                            {% endif %}
 
-                        <li class="nav-item">
-                            <a class="nav-link {{ maybe-active }}"
-                               href="{{ site.base }}{{ item.link }}">
-                                {{ item.title }}
-                            </a>
-                        </li>
+                            <li class="nav-item">
+                                <a class="nav-link {{ maybe-active }}"
+                                href="{{ site.base }}{{ item.link }}">
+                                    {{ item.title }}
+                                </a>
+                            </li>
 
-                    {% endfor %}
+                        {% endfor %}
+                    </ul>
+                    <hr class="half-width-hr">    
 
-                </ul>
+
+                </div>
+
             </div>
+  
+
 
             {% if page.image %}
                 <img src="{{ page.image }}"
